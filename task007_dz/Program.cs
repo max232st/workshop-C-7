@@ -44,7 +44,7 @@ void ArithmeticMeanColumns(int[,] array)
             result += array[i, j];
 
         }
-        Console.WriteLine($"Среднее арифметическое столбца номер {j + 1} = {result / array.GetLength(1)} ");
+        Console.WriteLine($"Среднее арифметическое столбца номер {j + 1} = {result / array.GetLength(0)} ");
     }
 }
 
